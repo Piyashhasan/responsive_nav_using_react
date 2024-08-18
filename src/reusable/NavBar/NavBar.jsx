@@ -63,7 +63,7 @@ const NavBar = () => {
           </ul>
         </div>
         <div className="toggle_btn">
-          <button className="btn btn-primary" onClick={() => setClick(!click)}>
+          <button className="btn text-white" onClick={() => setClick(!click)}>
             {click ? <ImCross /> : <GiHamburgerMenu />}
           </button>
         </div>
